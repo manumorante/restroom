@@ -1,29 +1,21 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="1252"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<!--#include virtual="/admin/inc_rutinas.asp" -->
+#include virtual="/admin/inc_rutinas.asp"
 
 <title>Globo Sanitarios</title>
-<%
-randomize
-ale = round(rnd(100)*100)+1
 
-ac = ""& request.QueryString("ac")
-codigo = numero(request.QueryString("codigo"))
-
-%>
-<link href="/estilos.css?<%=ale%>" rel="stylesheet" type="text/css" />
-<link href="/x_submenu.css?<%=ale%>" rel="stylesheet" type="text/css" />
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<link href="x_submenu.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
 
 	<div id="cuerpo">
 		<%cualidad = "lavabos"%>
-		<!--#include virtual="/inc/inc_menu.asp" -->
-		<!--#include virtual="/inc/inc_sub_menu_familias.asp" -->
+		#include virtual="/inc/inc_menu.asp"
+		#include virtual="/inc/inc_sub_menu_familias.asp"
 
 		<%if ac <> "ficha" then%>
 			<h1 class="titulo-seccion-catalogo">Lavabos</h1>
@@ -33,8 +25,8 @@ codigo = numero(request.QueryString("codigo"))
 			</div>
 		<%end if%>
 
-		<!--#include virtual="/inc/inc_catalogo.asp" -->
-		<!--#include virtual="/inc/inc_pie.asp" -->
+		#include virtual="/inc/inc_catalogo.asp"
+		#include virtual="/inc/inc_pie.asp"
 	</div>
 
 </body>
