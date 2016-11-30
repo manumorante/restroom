@@ -1,45 +1,13 @@
-<%@LANGUAGE="VBSCRIPT" CODEPAGE="1252"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/index.dwt.asp" codeOutsideHTMLIsLocked="false" -->
+<!DOCTYPE html>
+<html>
 <head>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<meta name="Description" content="Globo Sanitarios - Distribución de sanitario de diseño italiano" />
-<meta name="Keywords" content="lavabos, sanitarios, grifería, platos de ducha, diseño italiano, granada, andalucía, españa" />
-<meta name="title" content="Globo Sanitarios - Distribución de sanitario de diseño italiano" />
-<meta name="DC.Language" scheme="RFC1766" content="Spanish" />
-<meta name="Revisit-after" content="15 days" />
-<meta name="robots" content="ALL,FOLLOW" />
-<meta http-equiv="refresh" content="/;URL=" />
-<!-- InstanceBeginEditable name="doctitle" -->
-<title>Globo Sanitarios</title>
-<!-- InstanceEndEditable -->
-<%
-randomize
-dim ale
-ale = round(rnd(100)*100)+1
-%>
-<link href="/estilos.css?<%=ale%>" rel="stylesheet" type="text/css" />
-<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+
+<link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 
-
-<%
-Dim conn_lavabos
-Dim conn_sanitarios
-Dim conn_masarticulos
-Dim conn_ducha
-
-conn_lavabos	= "Driver={Microsoft Access Driver (*.mdb)};DBQ= " & Server.MapPath("\datos\esp\lavabos\lavabos.mdb")
-conn_sanitarios	= "Driver={Microsoft Access Driver (*.mdb)};DBQ= " & Server.MapPath("\datos\esp\sanitarios\sanitarios.mdb")
-conn_masarticulos	= "Driver={Microsoft Access Driver (*.mdb)};DBQ= " & Server.MapPath("\datos\esp\masarticulos\masarticulos.mdb")
-conn_ducha		= "Driver={Microsoft Access Driver (*.mdb)};DBQ= " & Server.MapPath("\datos\esp\ducha\ducha.mdb")
-
-%>
 <div id="cuerpo">
-	<!--#include virtual="/inc/inc_menu.asp" -->
-	<!-- InstanceBeginEditable name="Cuerpo" -->
-	<!--#include virtual="/inc/inc_sub_menu_familias.asp" -->
+	#include virtual="/inc/inc_menu.asp" -->
+	#include virtual="/inc/inc_sub_menu_familias.asp"
 	<div id="seccion">
 		<h1 class="titulo-seccion">Cat&aacute;logos</h1>
 		<div id="ProductosColIzq">
@@ -92,15 +60,7 @@ conn_ducha		= "Driver={Microsoft Access Driver (*.mdb)};DBQ= " & Server.MapPath(
 		  </div>
 	  </div>
 	</div>
-	
-	<!-- InstanceEndEditable -->
-	<!--#include virtual="/inc/inc_pie.asp" -->
+#include virtual="/inc/inc_pie.asp"
 </div>
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-_uacct = "UA-194047-9";
-urchinTracker();
-</script>
-</body>
-<!-- InstanceEnd --></html>
+
+</body></html>
