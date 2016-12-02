@@ -1,48 +1,26 @@
-<!DOCTYPE html>
-<html>
-<head>
+<div id="seccion">
+  <h1 class="titulo-seccion">Resultados de la b&uacute;squeda </h1>
 
-  <link href="assets/stylesheets/styles.css" rel="stylesheet" type="text/css"/>
-</head>
+  <div id="texto">
+    <p>A continuac&iacute;on se muestran los resultados para la b&uacute;squeda de la(s) pablabra(s):
+      <strong>key </strong></p>
 
-<div id="cuerpo">
-  <p>#include virtual="/inc/inc_menu.asp"</p>
+    <div id="resultados">
+      <ul id="resultados">
+        <li class="<%=fila%>">
+          <p class="titulo"><a href="#"> R_TITULO </a></p>
 
-  <p>#include virtual="/admin/inc_rutinas.asp"</p>
+          <p class="descripcion">R_MEMO1</p>
+        </li>
 
-  <div id="seccion">
-    <h1 class="titulo-seccion">Resultados de la b&uacute;squeda </h1>
+      </ul>
 
-    <div id="texto">
-      <p>A continuac&iacute;on se muestran los resultados para la b&uacute;squeda de la(s) pablabra(s):
-        <strong><%=key%></strong></p>
-
-      <div id="resultados">
-        <ul id="resultados">
-          <li class="<%=fila%>">
-            <p class="titulo"><a href="/<%=cualidad%>/index.asp?seccion=<%=re(" R_SECCION")%>&ac=ficha&codigo=<%=RE("R_ID")%>"><%=re("R_TITULO")%></a>
-            </p>
-
-            <p class="descripcion"><%=re("R_MEMO1")%></p>
-          </li>
-
-        </ul>
-
-        <ul id="paginado">
-          <li><a id="actual">n</a></li>
-
-          <li><a href="index.asp?key=<%=key%>&pag=<%=n%>">n</a></li>
-
-        </ul>
-
-      </div>
+      <ul id="paginado">
+        <li><a id="actual">n</a></li>
+        <li><a href="#">n</a></li>
+      </ul>
 
     </div>
+
   </div>
-
-
-  <p>#include virtual="/inc/inc_pie.asp"</p>
 </div>
-
-</body>
-</html>
