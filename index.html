@@ -1,84 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-	<title>Restroom</title>
-	<link href="assets/stylesheets/styles.css" rel="stylesheet" type="text/css" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Restroom</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link href="assets/stylesheets/application.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="cuerpo">
-
-	<div id="cabecera">
-		<div id="logo"><a href="/"><img src="assets/images/logo.gif" width="55" height="59" hspace="6" border="0" /></a></div>
-		<div id="menu-prin">
-			<ul>
-				<li><a href="catalogos/">Productos</a></li>
-				<li><a href="quienes_somos/">Quienes somos</a></li>
-				<li><a href="profesionales/">Profesionales</a></li>
-				<li><a href="calidad_iso">Calidad ISO</a></li>
-				<li><a href="contacto/">Contacto</a></li>
-			</ul>
-		</div>
-
-		<div id="buscador-general">
-			<form action="buscar/" method="get" name="buscador-general" target="_self" id="buscador-general">
-				<table>
-					<tr>
-						<td colspan="2">Buscador</td>
-					</tr>
-					<tr>
-						<td><input name="key" type="text" id="key" value="<%=key%>" maxlength="25" /></td>
-						<td><label>
-							<input type="image" src="assets/images/buscar.jpg" alt="Buscar" />
-						</label></td>
-					</tr>
-				</table>
-			</form>
-		</div>
-	</div>
-
-
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="770" height="181">
-	<param name="movie" value="/arch/centro.swf" />
-	<param name="quality" value="high" />
-	<param name="wmode" value="transparent" />
-	<embed src="assets/images/centro.swf" width="770" height="181" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent"></embed>
-	</object>
-
-	<div class="familias-portada">
-		<h2 class="bg-lavabos"><a href="Lavabos/">Lavabos</a></h2>
-		<div class="menu-modelos-portada">
-		<%subfamilias "lavabos"%>
-		</div>
-	</div>
-
-	<div class="familias-portada">
-		<h2 class="bg-sanitarios"><a href="Sanitarios/">Sanitarios</a></h2>
-		<div class="menu-modelos-portada">
-		<%subfamilias "sanitarios"%>
-		</div>
-	</div>
-
-	<div class="familias-portada">
-		<h2 class="bg-ducha"><a href="Ducha/">Platos de ducha </a></h2>
-		<div class="menu-modelos-portada">
-		<%subfamilias "ducha"%>
-		</div>
-	</div>
-
-	<div class="familias-portada">
-		<h2 class="bg-mas-articulos"><a href="masarticulos/">M&aacute;s art&iacute;culos</a></h2>
-	  <div class="menu-modelos-portada">
-		<%subfamilias "masarticulos"%>
-		</div>
-	</div>
-
-
-	<div class="pie">
-		<p>Copyright &copy; 2007-2016 Manu Morante</p>
-	</div>
-
-
+  <div id="header">Loading ...</div>
+  <div id="content">Loading ...</div>
+  <div id="footer">Loading ...</div>
 </div>
+
+<script src="assets/javascripts/libs/jquery.min.js"></script>
+<script src="assets/javascripts/application.js"></script>
+
+<script>
+  $(document).ready(function() {
+    init();
+  });
+</script>
 </body>
 </html>

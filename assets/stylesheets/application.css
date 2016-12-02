@@ -1,6 +1,13 @@
+@charset "UTF-8";
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Verdana', 'Arial', 'Helvetica', sans-serif;
+  font-size: 13px;
+  background: url("../images/bg.jpg") center top repeat-x;
 }
 
 p {
@@ -12,27 +19,20 @@ h4 {
   margin-bottom: 10px;
 }
 
-body {
-  font-family: Verdana, Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  background-image: url(/assets/images/bg.jpg);
-  background-repeat: repeat-x;
-  background-position: center top;
-}
-
 #cuerpo {
-  background-image: url(../images/bg-centro.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
   width: 770px;
   margin: 0 auto;
+  background: url("../images/bg-centro.jpg") center top no-repeat;
 }
 
-/* Cabecera */
-#cabecera {
+#header {
   width: 770px;
   height: 65px;
-  padding-top: 6px;
+  padding: 40px 0 10px;
+}
+
+#content {
+  min-height: 100px;
 }
 
 .lista {
@@ -43,44 +43,42 @@ body {
 }
 
 .lista li {
-  background-image: url(/assets/images/flecha.gif);
+  background-image: url("../images/flecha.gif");
   background-repeat: no-repeat;
-  background-position: 0px 3px;
+  background-position: 0 3px;
   padding-left: 12px;
-
 }
 
 #listaCalidad li {
   margin-bottom: 5px;
 }
 
-#cabecera #logo {
+#header #logo {
   float: left;
 }
 
-#cabecera #menu-prin {
+#header #main-menu {
   float: left;
   margin-top: 22px;
   margin-left: 10px;
-  background-image: url(/assets/images/bg-menu-prin.gif);
+  background-image: url("../images/bg-main-menu.gif");
   height: 38px;
   width: 488px;
   text-align: center;
 }
 
-#cabecera #menu-prin ul {
+#header #main-menu ul {
   list-style-type: none;
   padding-top: 10px;
-
 }
 
-#cabecera #menu-prin li {
+#header #main-menu li {
   display: inline;
   margin-right: 2px;
   margin-left: 2px;
 }
 
-#cabecera #menu-prin li a {
+#header #main-menu li a {
   text-decoration: none;
   color: #5B89B3;
   font-family: Tahoma;
@@ -125,7 +123,7 @@ body {
   width: 220px;
   background-color: #F0F5FB;
   border: 1px solid #FCFDFF;
-  background-image: url(/assets/images/pdf.gif);
+  background-image: url("../images/pdf.gif");
   background-repeat: no-repeat;
   background-position: 8px 10px;
   padding-top: 10px;
@@ -159,7 +157,7 @@ body {
   font-size: 12px;
 }
 
-#cabecera #buscador-general {
+#header #search-general {
   padding-top: 11px;
   display: block;
   font-size: 11px;
@@ -170,7 +168,7 @@ body {
   color: #3F6587;
 }
 
-#cabecera #buscador-general input#key {
+#header #search-general input#key {
   width: 145px;
   height: 14px;
   font-family: Verdana, Arial, Helvetica, sans-serif;
@@ -183,10 +181,9 @@ body {
 }
 
 /* -------------------------- */
-
 /* Resutlado de la búsqueda */
 #seccion #texto #resultados #resultados li {
-  margin: 0px;
+  margin: 0;
   padding: 5px;
   list-style-image: none;
   list-style-type: none;
@@ -212,7 +209,7 @@ body {
 }
 
 #seccion #texto #resultados #resultados p {
-  margin: 0px;
+  margin: 0;
 }
 
 #seccion #texto #resultados #resultados p.titulo {
@@ -224,15 +221,15 @@ body {
 }
 
 #seccion #texto #resultados ul#paginado {
-  padding: 0px;
+  padding: 0;
   margin-top: 15px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
 #seccion #texto #resultados ul#paginado li {
-  margin: 0px;
+  margin: 0;
   padding: 2px;
   list-style-type: none;
   display: inline;
@@ -261,7 +258,6 @@ body {
 }
 
 /* -------------------------- */
-
 .titulo-seccion-catalogo {
   font-weight: normal;
   font-family: Tahoma;
@@ -363,7 +359,7 @@ body {
   margin-bottom: 15px;
   border: 1px none #5B89B3;
   clear: both;
-  background-image: url(/assets/images/bg-tit-seccion.gif);
+  background-image: url(../images/bg-tit-seccion.gif);
   background-repeat: no-repeat;
   background-position: left top;
   background-color: #F6FAFC;
@@ -392,23 +388,20 @@ body {
   display: block;
 }
 
-#cuerpo #texto {
-}
-
 .bg-lavabos {
-  background-image: url(/assets/images/lavabos.jpg);
+  background-image: url(../images/lavabos.jpg);
 }
 
 .bg-sanitarios {
-  background-image: url(/assets/images/sanitarios.jpg);
+  background-image: url(../images/sanitarios.jpg);
 }
 
 .bg-ducha {
-  background-image: url(/assets/images/ducha.jpg);
+  background-image: url(../images/ducha.jpg);
 }
 
 .bg-mas-articulos {
-  background-image: url(/assets/images/mas-articulos.jpg);
+  background-image: url(../images/mas-articulos.jpg);
 }
 
 .menu-modelos-portada {
@@ -422,7 +415,7 @@ body {
 }
 
 .menu-modelos-portada ul {
-  list-style-image: url(/assets/images/flecha.gif);
+  list-style-image: url(../images/flecha.gif);
   list-style-type: none;
   padding-left: 15px;
 }
@@ -438,7 +431,6 @@ body {
 }
 
 /* Ficha del producto */
-
 #ficha {
   padding-top: 10px;
 }
@@ -449,10 +441,10 @@ body {
 
 #ficha #foto {
   width: 450px;
-  padding: 0px;
+  padding: 0;
   margin-top: 5px;
   margin-right: 15px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   margin-left: 15px;
   height: 450px;
   overflow: hidden;
@@ -564,7 +556,7 @@ body {
   display: block;
   clear: both;
   height: 20px;
-  background-image: url(/assets/images/pie.gif);
+  background-image: url(../images/pie.gif);
   width: 770px;
   text-align: center;
   background-repeat: no-repeat;
@@ -597,7 +589,7 @@ body {
   display: block;
   height: 20px;
   width: 98px;
-  background-image: url(/assets/images/bg_tit_icono.gif);
+  background-image: url(../images/bg_tit_icono.gif);
   background-repeat: repeat;
   padding-top: 2px;
   padding-left: 2px;
@@ -622,7 +614,7 @@ body {
   font-weight: normal;
   width: 93px;
   height: 18px;
-  background-image: url(/assets/images/bg_tit_icono.gif);
+  background-image: url(../images/bg_tit_icono.gif);
   background-repeat: repeat-x;
   padding-top: 4px;
   padding-left: 7px;
@@ -644,7 +636,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #C3D8ED;
-  margin: 0px;
+  margin: 0;
   float: left;
   clear: none;
   width: 210px;
@@ -669,7 +661,7 @@ body {
 }
 
 #MenuQuienesSomos li {
-  padding: 0px;
+  padding: 0;
   list-style-image: none;
   list-style-type: none;
   margin-bottom: 6px;
@@ -700,7 +692,7 @@ body {
   padding: 5px;
 }
 
-#productos_interes {
+#products_interes {
   margin-bottom: 15px;
 }
 
@@ -712,7 +704,7 @@ body {
   margin-top: 10px;
   margin-right: 2px;
   margin-bottom: 10px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .campo {
@@ -723,7 +715,7 @@ body {
   padding-left: 3px;
 }
 
-#productos_interes li {
+#products_interes li {
   list-style-image: none;
   list-style-type: none;
 }
@@ -744,7 +736,6 @@ body {
 }
 
 #ProfesionalesColIzq {
-
   float: left;
   width: 400px;
 }
@@ -771,7 +762,7 @@ body {
   width: 220px;
   background-color: #F0F5FB;
   border: 1px solid #FCFDFF;
-  background-image: url(/assets/images/pdf.gif);
+  background-image: url(../images/pdf.gif);
   background-repeat: no-repeat;
   background-position: 8px 10px;
   padding-top: 10px;
@@ -787,7 +778,7 @@ body {
   width: 220px;
   background-color: #F0F5FB;
   border: 1px solid #FCFDFF;
-  background-image: url(/assets/images/pdf.gif);
+  background-image: url(../images/pdf.gif);
   background-repeat: no-repeat;
   background-position: 8px 10px;
   padding-top: 10px;
@@ -816,14 +807,12 @@ body {
   color: #333333;
 }
 
-#ProductosColIzq {
-
+#productsColIzq {
   float: left;
   width: 350px;
 }
 
-#ProductosColDer {
-
+#productsColDer {
   float: left;
   width: 420px;
   text-align: center;
@@ -840,7 +829,7 @@ body {
   height: 14px;
   width: 14px;
   float: left;
-  padding: 0px;
+  padding: 0;
   margin-right: 5px;
   margin-top: 1px;
 }
@@ -853,7 +842,6 @@ body {
 }
 
 /* CSS Document */
-
 #sub-menu-familias {
   float: left;
   width: 100%;
@@ -862,7 +850,7 @@ body {
 #sub-menu-familias ul {
   margin: 0;
   list-style: none;
-  padding-top: 0px;
+  padding-top: 0;
   padding-right: 10px;
   padding-bottom: 0;
   padding-left: 10px;

@@ -1,0 +1,28 @@
+{
+  "name": "restroom",
+  "version": "1.0.0",
+  "description": "restroom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manumorante/restroom.git"
+  },
+  "author": "Manu Morante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manumorante/restroom/issues"
+  },
+  "homepage": "https://github.com/manumorante/restroom#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "glob": "^7.1.1",
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-watch": "^4.3.11"
+  }
+}
