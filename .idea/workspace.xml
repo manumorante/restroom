@@ -2,61 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69763744-61b3-4dd0-b6dd-caabfa7ee0ed" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/admin.asp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/cadenas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/default.asp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/estilos.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/ir.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/images/r.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/inc_nav.asp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/inicio.asp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/pedidos.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/rutinas.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/usa.asp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/submenu.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/GOTADEAGUA.jpg" afterPath="$PROJECT_DIR$/assets/images/GOTADEAGUA.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/Lilac.jpg" afterPath="$PROJECT_DIR$/assets/images/Lilac.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/bg-centro.jpg" afterPath="$PROJECT_DIR$/assets/images/bg-centro.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/bg.jpg" afterPath="$PROJECT_DIR$/assets/images/bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/bg_dato.gif" afterPath="$PROJECT_DIR$/assets/images/bg_dato.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/bg_dato.png" afterPath="$PROJECT_DIR$/assets/images/bg_dato.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/buscar.jpg" afterPath="$PROJECT_DIR$/assets/images/buscar.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/cd.jpg" afterPath="$PROJECT_DIR$/assets/images/cd.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/centro.swf" afterPath="$PROJECT_DIR$/assets/images/centro.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/cielo.jpg" afterPath="$PROJECT_DIR$/assets/images/cielo.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/ducha.gif" afterPath="$PROJECT_DIR$/assets/images/ducha.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/ducha.jpg" afterPath="$PROJECT_DIR$/assets/images/ducha.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/email-info.gif" afterPath="$PROJECT_DIR$/assets/images/email-info.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/email.gif" afterPath="$PROJECT_DIR$/assets/images/email.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/flecha.gif" afterPath="$PROJECT_DIR$/assets/images/flecha.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/globobanda.jpg" afterPath="$PROJECT_DIR$/assets/images/globobanda.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/griferia.gif" afterPath="$PROJECT_DIR$/assets/images/griferia.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/head.gif" afterPath="$PROJECT_DIR$/assets/images/head.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/head.html" afterPath="$PROJECT_DIR$/assets/images/head.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/index.swf" afterPath="$PROJECT_DIR$/assets/images/index.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/iso-9001.jpg" afterPath="$PROJECT_DIR$/assets/images/iso-9001.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/lavabos.gif" afterPath="$PROJECT_DIR$/assets/images/lavabos.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/lavabos.jpg" afterPath="$PROJECT_DIR$/assets/images/lavabos.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/logo-2.gif" afterPath="$PROJECT_DIR$/assets/images/logo-2.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/logo.gif" afterPath="$PROJECT_DIR$/assets/images/logo.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/logo.jpg" afterPath="$PROJECT_DIR$/assets/images/logo.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/logo.swf" afterPath="$PROJECT_DIR$/assets/images/logo.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/logo_mini.gif" afterPath="$PROJECT_DIR$/assets/images/logo_mini.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/nave.jpg" afterPath="$PROJECT_DIR$/assets/images/nave.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/pdf.gif" afterPath="$PROJECT_DIR$/assets/images/pdf.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/pie.gif" afterPath="$PROJECT_DIR$/assets/images/pie.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/pro.jpg" afterPath="$PROJECT_DIR$/assets/images/pro.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/sanitarios.gif" afterPath="$PROJECT_DIR$/assets/images/sanitarios.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/sanitarios.jpg" afterPath="$PROJECT_DIR$/assets/images/sanitarios.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/arch/web.html" afterPath="$PROJECT_DIR$/assets/images/web.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/styles.css" afterPath="$PROJECT_DIR$/assets/stylesheets/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_menu.html" afterPath="$PROJECT_DIR$/_menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog.html" afterPath="$PROJECT_DIR$/catalog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_pie.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/shower/index.html" afterPath="$PROJECT_DIR$/showe.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shower/index.html" afterPath="$PROJECT_DIR$/shower/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search.html" afterPath="$PROJECT_DIR$/search.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sink.html" afterPath="$PROJECT_DIR$/sink.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="restroom.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,7 +26,18 @@
     <favorites_list name="restroom" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.90453833">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,9 +51,9 @@
         <option value="$PROJECT_DIR$/_menu.html" />
         <option value="$PROJECT_DIR$/catalog.html" />
         <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/sink.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -176,6 +136,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/assets/stylesheets" />
       <recent name="$PROJECT_DIR$/assets" />
     </key>
@@ -295,14 +256,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913843" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15416667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15416667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -310,7 +272,6 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -325,22 +286,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19101124">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_pie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.052093975">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6427861">
@@ -365,14 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38550422">
-          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3299285">
@@ -385,6 +322,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5">
           <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38202247">
+          <caret line="22" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.90453833">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
           <folding />
         </state>
       </provider>
