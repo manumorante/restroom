@@ -2,66 +2,47 @@
 <html>
 <head>
 
-<link href="styles.css" rel="stylesheet" type="text/css" />
+  <link href="assets/stylesheets/styles.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <div id="cuerpo">
-	#include virtual="/inc/inc_menu.asp"
-#include virtual="/admin/inc_rutinas.asp"
+  <p>#include virtual="/inc/inc_menu.asp"</p>
 
-	<div id="seccion">
-		<h1 class="titulo-seccion">Resultados de la b&uacute;squeda </h1>
-		<div id="texto">
-			<p>A continuac&iacute;on se muestran los resultados para la b&uacute;squeda de la(s) pablabra(s): <strong><%=key%></strong></p>
-			<%
-			if re.eof then
-				%><strong>No se han encontrado coincidencias</strong><%
-			else
-				%><div id="resultados"><ul id="resultados"><%
-				n=0
-				pintados=0
-				while not re.eof
-					n = n+1
-					if n>= reg_ini and pintados < reg_pag then
-						pintados = pintados +1
-						if fila = "fila-a" then
-							fila = "fila-b"
-						else
-							fila = "fila-a"
-						end if
-						%><li class="<%=fila%>">
-						<p class="titulo"><a href="/<%=cualidad%>/index.asp?seccion=<%=re("R_SECCION")%>&ac=ficha&codigo=<%=RE("R_ID")%>"><%=re("R_TITULO")%></a></p>
-						<p class="descripcion"><%=re("R_MEMO1")%></p>
-						</li><%
-					end if
-					re.movenext()
-				wend
-				%></ul><%
+  <p>#include virtual="/admin/inc_rutinas.asp"</p>
 
-				num_pag = total / reg_pag
-				if num_pag-cint(num_pag) >0 then
-					num_pag = cint(num_pag) + 1
-				else
-					num_pag = cint(num_pag)
-				end if
-				%><ul id="paginado"><%
-				for n=1 to num_pag
-					if n=pag then
-						%><li><a id="actual"><%=n%></a></li><%
-					else
-						%><li><a href="index.asp?key=<%=key%>&pag=<%=n%>"><%=n%></a></li><%
-					end if
-				next
-				%></ul><%
+  <div id="seccion">
+    <h1 class="titulo-seccion">Resultados de la b&uacute;squeda </h1>
 
-				%></div><%
-			end if
-			%>
-		</div>
-	</div>
+    <div id="texto">
+      <p>A continuac&iacute;on se muestran los resultados para la b&uacute;squeda de la(s) pablabra(s):
+        <strong><%=key%></strong></p>
 
-	
-	#include virtual="/inc/inc_pie.asp"
+      <div id="resultados">
+        <ul id="resultados">
+          <li class="<%=fila%>">
+            <p class="titulo"><a href="/<%=cualidad%>/index.asp?seccion=<%=re(" R_SECCION")%>&ac=ficha&codigo=<%=RE("R_ID")%>"><%=re("R_TITULO")%></a>
+            </p>
+
+            <p class="descripcion"><%=re("R_MEMO1")%></p>
+          </li>
+
+        </ul>
+
+        <ul id="paginado">
+          <li><a id="actual">n</a></li>
+
+          <li><a href="index.asp?key=<%=key%>&pag=<%=n%>">n</a></li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <p>#include virtual="/inc/inc_pie.asp"</p>
 </div>
 
-</body></html>
+</body>
+</html>
