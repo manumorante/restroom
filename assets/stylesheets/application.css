@@ -59,11 +59,11 @@ h4 {
 
 #header #main-menu {
   float: left;
+  width: 408px;
+  height: 38px;
   margin-top: 22px;
   margin-left: 10px;
   background-image: url("../images/bg-main-menu.gif");
-  height: 38px;
-  width: 488px;
   text-align: center;
 }
 
@@ -389,19 +389,19 @@ h4 {
 }
 
 .bg-lavabos {
-  background-image: url(../images/lavabos.jpg);
+  background-image: url("../images/lavabos.jpg");
 }
 
 .bg-sanitarios {
-  background-image: url(../images/sanitarios.jpg);
+  background-image: url("../images/sanitarios.jpg");
 }
 
 .bg-ducha {
-  background-image: url(../images/ducha.jpg);
+  background-image: url("../images/shower.jpg");
 }
 
-.bg-mas-articulos {
-  background-image: url(../images/mas-articulos.jpg);
+.bg-taps {
+  background-image: url("../images/taps.gif");
 }
 
 .menu-modelos-portada {
