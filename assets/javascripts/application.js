@@ -11,7 +11,7 @@ function goSection(seccion) {
 }
 
 function myLoad(wrapper, seccion) {
-  $(wrapper).load('includes/_'+ seccion + '.html');
+  $(wrapper).load('includes/'+ seccion + '.html');
 }
 
 // Navigation
