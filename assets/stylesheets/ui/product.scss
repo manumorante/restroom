@@ -1,0 +1,109 @@
+// Product
+
+#ficha {
+  padding-top: 10px;
+
+  h1 {
+    padding-top: 5px;
+  }
+
+  #foto {
+    overflow: hidden;
+    display: block;
+    width: 450px;
+    height: 450px;
+    margin: 5px 15px 0;
+    padding: 0;
+    border-right: 1px solid #7AA0CB;
+
+    img {
+      border: 2px solid #EDF9FA;
+    }
+  }
+
+  #descripcion {
+    padding-bottom: 5px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #2E6A8B;
+  }
+
+  h1 {
+    margin-bottom: 10px;
+    color: #006699;
+  }
+
+  #datos {
+    margin-left: 10px;
+    margin-top: 10px;
+
+    .dato {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .dato strong {
+      display: block;
+      padding-bottom: 2px;
+      margin-bottom: 5px;
+      border-bottom: 1px solid #5B89BE;
+      text-transform: uppercase;
+      color: #5B89BE;
+    }
+
+    #peso {
+      font-size: 18px;
+      font-weight: bold;
+      color: #006699;
+    }
+
+    #color {
+      padding: 3px;
+      margin-top: 3px;
+      display: block;
+    }
+  }
+
+  #enlazados {
+    margin-left: 10px;
+    margin-top: 10px;
+
+    li {
+      display: block;
+      height: 100px;
+      margin-bottom: 6px;
+      background-color: #FFFFFF;
+      border-bottom: 1px solid #CCCCCC;
+    }
+
+    .titulo {
+      display: block;
+      clear: both;
+      padding: 3px;
+
+      border-style: none;
+      font-weight: bold;
+      color: #FFFFFF;
+      text-decoration: none;
+      background-color: #006699;
+    }
+
+    .foto {
+      display: block;
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      float: left;
+    }
+
+    .descripcion {
+      display: block;
+      float: left;
+      height: 94px;
+      width: 94px;
+      padding: 3px;
+      color: #666666;
+      background-color: #FFFFFF;
+    }
+  }
+}

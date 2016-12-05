@@ -1,0 +1,31 @@
+.sub-sections {
+  padding-left: 100px;
+  height: 18px;
+  display: block;
+  clear: both;
+}
+
+.sub-sections li {
+  display: inline;
+}
+
+.sub-sections .sub-sections-activo a {
+  color: #E1ECF7;
+  background-color: #5B89BE;
+  font-weight: normal;
+}
+
+.sub-sections a {
+  text-decoration: none;
+  padding-right: 6px;
+  padding-left: 6px;
+  background-color: #E1ECF7;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: #5B89B3;
+  font-weight: normal;
+}
+
+.sub-sections a:hover {
+  background-color: #D1E2F3;
+}
