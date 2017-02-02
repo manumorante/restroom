@@ -1,22 +1,5 @@
-@function image-url($image, $only-path: false, $cache-buster: false) {
-  $result: '../images/' + $image;
+@function image-url($image) {
+  $result: quote($assets-path +'/'+ $image);
 
-  @if ($cache-buster == true) {
-    @if not (image-exists($image)) {
-      @warn 'Image `#{$image}` not found. Cache-busting failed';
-    } @else if (map-has-key($compass-imagehelper-imagesmap, $image)) {
-      $list: map-get($compass-imagehelper-imagesmap, $image);
-      $hash: nth($list, 4);
-      $result: $result + '?' + $hash;
-    }
-  } @else if ($cache-buster == false) {
-  } @else {
-    // probably a string
-    $result: $result + '?' + $cache-buster;
-  }
-  $result: quote($result);
-  @if ($only-path == false) {
-    $result: url($result);
-  }
-  @return $result;
+  @return url($result);
 }

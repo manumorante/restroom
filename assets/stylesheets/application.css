@@ -4,13 +4,14 @@
 }
 
 body {
+  color: #333333;
   font-family: "Arial", "Helvetica", sans-serif;
   font-size: 14px;
-  background: url("../images/bg.jpg") repeat-x center top;
+  background: url("../images//bg.jpg") repeat-x center top;
 }
 
 p {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 h4 {
@@ -29,7 +30,7 @@ input {
 .wrap {
   width: 770px;
   margin: 0 auto;
-  background: url("../images/bg-centro.jpg") center top no-repeat;
+  background: url("../images//bg-centro.jpg") center top no-repeat;
 }
 
 #ColDer {
@@ -52,7 +53,7 @@ input {
   padding-left: 10px;
 }
 .list li {
-  background: url("../images/flecha.gif") no-repeat 0 3px;
+  background: url("../images//flecha.gif") no-repeat 0 3px;
   padding-left: 12px;
 }
 
@@ -66,7 +67,7 @@ input {
   margin-bottom: 15px;
   padding: 10px 10px 10px 60px;
   border: 1px solid #FCFDFF;
-  background: #F0F5FB url("../images/pdf.gif") 8px 10px no-repeat;
+  background: #F0F5FB url("../images//pdf.gif") 8px 10px no-repeat;
 }
 
 .header #search-general {
@@ -106,21 +107,6 @@ input {
   color: #5B89B3;
 }
 
-.wrap #seccion #texto {
-  padding-left: 30px;
-  color: #333333;
-  padding-right: 30px;
-  padding-bottom: 15px;
-  display: block;
-  float: left;
-}
-
-.texto {
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 15px;
-}
-
 #iso {
   padding-right: 10px;
 }
@@ -146,46 +132,16 @@ input {
   padding-right: 10px;
 }
 
-.familias-portada {
-  width: 163px;
-  display: block;
-  float: left;
-  margin-right: 5px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  margin-left: 5px;
-}
-
-.familias-portada h2 {
-  height: 100px;
-  width: auto;
-}
-
-.familias-portada h2 a {
-  text-decoration: none;
-  font-weight: normal;
-  font-size: 15px;
-  display: block;
-  color: #E2F8EE;
-  padding-top: 7px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 12px;
-}
-
 .seccion-cuadricula {
   display: block;
+  height: 21px;
+  padding-top: 4px;
+  padding-left: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
   border: 1px none #5B89B3;
   clear: both;
-  background-image: url(../images/bg-tit-seccion.gif);
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-color: #F6FAFC;
-  height: 21px;
-  padding-top: 4px;
-  padding-left: 15px;
+  background: #F6FAFC url("../images//bg-tit-seccion.gif") no-repeat left top;
 }
 
 .seccion-cuadricula a {
@@ -209,19 +165,19 @@ input {
 }
 
 .bg-lavabos {
-  background-image: url("../images/lavabos.jpg");
+  background-image: url("../images//lavabos.jpg");
 }
 
 .bg-sanitarios {
-  background-image: url("../images/sanitarios.jpg");
+  background-image: url("../images//sanitarios.jpg");
 }
 
 .bg-ducha {
-  background-image: url("../images/shower.jpg");
+  background-image: url("../images//shower.jpg");
 }
 
 .bg-taps {
-  background-image: url("../images/taps.gif");
+  background-image: url("../images//taps.gif");
 }
 
 .menu-modelos-portada {
@@ -233,7 +189,7 @@ input {
   padding-left: 10px;
 }
 .menu-modelos-portada ul {
-  list-style-image: url(../images/flecha.gif);
+  list-style-image: url("../images//flecha.gif");
   list-style-type: none;
   padding-left: 15px;
 }
@@ -250,7 +206,7 @@ input {
   display: block;
   clear: both;
   height: 20px;
-  background-image: url(../images/pie.gif);
+  background-image: url("../images//pie.gif");
   width: 770px;
   text-align: center;
   background-repeat: no-repeat;
@@ -283,7 +239,7 @@ input {
   display: block;
   height: 20px;
   width: 98px;
-  background-image: url(../images/bg_tit_icono.gif);
+  background-image: url("../images//bg_tit_icono.gif");
   background-repeat: repeat;
   padding-top: 2px;
   padding-left: 2px;
@@ -308,7 +264,7 @@ input {
   font-weight: normal;
   width: 93px;
   height: 18px;
-  background-image: url(../images/bg_tit_icono.gif);
+  background-image: url("../images//bg_tit_icono.gif");
   background-repeat: repeat-x;
   padding-top: 4px;
   padding-left: 7px;
@@ -341,38 +297,6 @@ input {
 #cdrom-pro #cd {
   float: right;
   clear: none;
-}
-
-#MenuQuienesSomos {
-  float: left;
-  display: block;
-  width: 130px;
-}
-
-#MenuQuienesSomos ul {
-  margin-top: 5px;
-}
-
-#MenuQuienesSomos li {
-  padding: 0;
-  list-style-image: none;
-  list-style-type: none;
-  margin-bottom: 6px;
-}
-
-#MenuQuienesSomos li a {
-  color: #5B89B3;
-  text-decoration: none;
-  background-color: #E9EDF5;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 5px;
-  width: 110px;
-  display: block;
-}
-
-#MenuQuienesSomos li a:hover {
-  background-color: #FFFFFF;
 }
 
 #FotosEquipo {
@@ -455,7 +379,7 @@ input {
   width: 220px;
   background-color: #F0F5FB;
   border: 1px solid #FCFDFF;
-  background-image: url(../images/pdf.gif);
+  background-image: url("../images//pdf.gif");
   background-repeat: no-repeat;
   background-position: 8px 10px;
   padding-top: 10px;
@@ -471,7 +395,7 @@ input {
   width: 220px;
   background-color: #F0F5FB;
   border: 1px solid #FCFDFF;
-  background-image: url(../images/pdf.gif);
+  background-image: url("../images//pdf.gif");
   background-repeat: no-repeat;
   background-position: 8px 10px;
   padding-top: 10px;
@@ -586,7 +510,7 @@ input {
   height: 38px;
   margin-top: 22px;
   margin-left: 10px;
-  background-image: url("../images/bg-main-menu.gif");
+  background-image: url("../images//bg-main-menu.gif");
   text-align: center;
 }
 .main-menu ul {
@@ -601,6 +525,35 @@ input {
 .main-menu a {
   text-decoration: none;
   color: #5B89B3;
+}
+
+.home-sections {
+  width: 100%;
+}
+.home-sections .home-section {
+  width: 22%;
+  margin-right: 1%;
+  float: left;
+}
+.home-sections h2 {
+  width: auto;
+  height: 112px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.home-sections a {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 15px;
+  display: block;
+  color: #E2F8EE;
+  padding: 7px 5px 5px 12px;
+}
+
+.banner {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .sub-sections {
@@ -806,4 +759,31 @@ input {
   float: left;
   width: 450px;
   margin-left: 5px;
+}
+
+.about-us-menu {
+  float: left;
+  display: block;
+  width: 130px;
+}
+.about-us-menu ul {
+  margin-top: 5px;
+}
+.about-us-menu li {
+  margin-bottom: 6px;
+  padding: 0;
+  list-style: none;
+}
+.about-us-menu a {
+  display: block;
+  width: 110px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  color: #5B89B3;
+  text-decoration: none;
+  background-color: #E9EDF5;
+}
+.about-us-menu a:hover {
+  background-color: #FFFFFF;
 }

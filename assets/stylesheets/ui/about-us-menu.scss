@@ -1,0 +1,30 @@
+.about-us-menu {
+  float: left;
+  display: block;
+  width: 130px;
+
+  ul {
+    margin-top: 5px;
+  }
+
+  li {
+    margin-bottom: 6px;
+    padding: 0;
+    list-style: none;
+  }
+
+  a {
+    display: block;
+    width: 110px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    color: #5B89B3;
+    text-decoration: none;
+    background-color: #E9EDF5;
+  }
+
+  a:hover {
+    background-color: #FFFFFF;
+  }
+}

@@ -4,13 +4,14 @@
 }
 
 body {
+  color: #333333;
   font-family: $default-font-family;
   font-size: $default-font-size;
   background: image-url('bg.jpg') repeat-x center top;
 }
 
 p {
-  margin-bottom: 10px;
+  margin-bottom: $defaul-margin;
 }
 
 h4 {

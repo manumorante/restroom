@@ -14,7 +14,7 @@
   padding-left: 10px;
 
   li {
-    background: url('../images/flecha.gif') no-repeat 0 3px;
+    background: image-url('flecha.gif') no-repeat 0 3px;
     padding-left: 12px;
   }
 }
@@ -29,7 +29,7 @@
   margin-bottom: 15px;
   padding: 10px 10px 10px 60px;
   border: 1px solid #FCFDFF;
-  background: #F0F5FB url('../images/pdf.gif') 8px 10px no-repeat;
+  background: #F0F5FB image-url('pdf.gif') 8px 10px no-repeat;
 }
 
 
@@ -71,21 +71,6 @@
   color: #5B89B3;
 }
 
-.wrap #seccion #texto {
-  padding-left: 30px;
-  color: #333333;
-  padding-right: 30px;
-  padding-bottom: 15px;
-  display: block;
-  float: left;
-}
-
-.texto {
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 15px;
-}
-
 #iso {
   padding-right: 10px;
 }
@@ -111,46 +96,16 @@
   padding-right: 10px;
 }
 
-.familias-portada {
-  width: 163px;
-  display: block;
-  float: left;
-  margin-right: 5px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  margin-left: 5px;
-}
-
-.familias-portada h2 {
-  height: 100px;
-  width: auto;
-}
-
-.familias-portada h2 a {
-  text-decoration: none;
-  font-weight: normal;
-  font-size: 15px;
-  display: block;
-  color: #E2F8EE;
-  padding-top: 7px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 12px;
-}
-
 .seccion-cuadricula {
   display: block;
+  height: 21px;
+  padding-top: 4px;
+  padding-left: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
   border: 1px none #5B89B3;
   clear: both;
-  background-image: url(../images/bg-tit-seccion.gif);
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-color: #F6FAFC;
-  height: 21px;
-  padding-top: 4px;
-  padding-left: 15px;
+  background: #F6FAFC image-url('bg-tit-seccion.gif') no-repeat left top;
 }
 
 .seccion-cuadricula a {
@@ -174,19 +129,19 @@
 }
 
 .bg-lavabos {
-  background-image: url('../images/lavabos.jpg');
+  background-image: image-url('lavabos.jpg');
 }
 
 .bg-sanitarios {
-  background-image: url('../images/sanitarios.jpg');
+  background-image: image-url('sanitarios.jpg');
 }
 
 .bg-ducha {
-  background-image: url('../images/shower.jpg');
+  background-image: image-url('shower.jpg');
 }
 
 .bg-taps {
-  background-image: url('../images/taps.gif');
+  background-image: image-url('taps.gif');
 }
 
 .menu-modelos-portada {
@@ -198,7 +153,7 @@
   padding-left: 10px;
 
   ul {
-    list-style-image: url(../images/flecha.gif);
+    list-style-image: image-url('flecha.gif');
     list-style-type: none;
     padding-left: 15px;
   }
@@ -220,7 +175,7 @@
   display: block;
   clear: both;
   height: 20px;
-  background-image: url(../images/pie.gif);
+  background-image: image-url('pie.gif');
   width: 770px;
   text-align: center;
   background-repeat: no-repeat;
@@ -253,7 +208,7 @@
   display: block;
   height: 20px;
   width: 98px;
-  background-image: url(../images/bg_tit_icono.gif);
+  background-image: image-url('bg_tit_icono.gif');
   background-repeat: repeat;
   padding-top: 2px;
   padding-left: 2px;
@@ -278,7 +233,7 @@
   font-weight: normal;
   width: 93px;
   height: 18px;
-  background-image: url(../images/bg_tit_icono.gif);
+  background-image: image-url('bg_tit_icono.gif');
   background-repeat: repeat-x;
   padding-top: 4px;
   padding-left: 7px;
@@ -313,37 +268,7 @@
   clear: none;
 }
 
-#MenuQuienesSomos {
-  float: left;
-  display: block;
-  width: 130px;
-}
 
-#MenuQuienesSomos ul {
-  margin-top: 5px;
-}
-
-#MenuQuienesSomos li {
-  padding: 0;
-  list-style-image: none;
-  list-style-type: none;
-  margin-bottom: 6px;
-}
-
-#MenuQuienesSomos li a {
-  color: #5B89B3;
-  text-decoration: none;
-  background-color: #E9EDF5;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 5px;
-  width: 110px;
-  display: block;
-}
-
-#MenuQuienesSomos li a:hover {
-  background-color: #FFFFFF;
-}
 
 #FotosEquipo {
   background-color: #FFFFFF;
@@ -426,7 +351,7 @@
   width: 220px;
   background-color: #F0F5FB;
   border: 1px solid #FCFDFF;
-  background-image: url(../images/pdf.gif);
+  background-image: image-url('pdf.gif');
   background-repeat: no-repeat;
   background-position: 8px 10px;
   padding-top: 10px;
@@ -442,7 +367,7 @@
   width: 220px;
   background-color: #F0F5FB;
   border: 1px solid #FCFDFF;
-  background-image: url(../images/pdf.gif);
+  background-image: image-url('pdf.gif');
   background-repeat: no-repeat;
   background-position: 8px 10px;
   padding-top: 10px;

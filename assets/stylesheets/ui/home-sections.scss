@@ -1,0 +1,26 @@
+.home-sections {
+  width: 100%;
+
+  .home-section {
+    width: 22%;
+    margin-right: 1%;
+    float: left;
+  }
+
+  h2 {
+    width: auto;
+    height: 112px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 15px;
+    display: block;
+    color: #E2F8EE;
+    padding: 7px 5px 5px 12px;
+  }
+}
